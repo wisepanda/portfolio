@@ -13,14 +13,14 @@ export default function Home() {
         <title>Ivan's Portfolio</title>
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Ivan's Portfolio
-        </h1>
       <div className={styles.infos}>
         <div>
         <Image className={styles.img} src="/untitled1.png" alt='me' width={360} height={360}/>
         </div>
         <div className={styles.description}>
+        <h1 className={styles.title}>
+          Welcome to Ivan's Portfolio
+        </h1>
             <p>
               Ciao sono Ivan!
             </p>
