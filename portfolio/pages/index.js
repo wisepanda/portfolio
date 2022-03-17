@@ -46,7 +46,7 @@ export default function Home() {
           <Link href="https://www.linkedin.com/in/ivan-fanello-25b344230/">
             <AiFillLinkedin className={styles.linkedin}/>
           </Link>
-          <Link href="">
+          <Link href="mailto:ivan.fanello@gmail.com">
             <MdContactMail className={styles.email}/>
           </Link>
           <Link href="/Ivan Fanello (London) - CV.pdf"
