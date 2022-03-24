@@ -1,4 +1,4 @@
-.title:hover {
+.subtitle:hover {
   /* color:#8c12d3; */
   -webkit-animation-name: shake;    
   -webkit-animation-duration: 0.8s;
@@ -19,14 +19,12 @@
   color: #fe980f;
   text-decoration: none;
   /* text-align: center; */
-  animation: 2s ease 0s normal none bounce;
   /* background: none repeat scroll 0 0 #fe980f; */
   padding: 5px 7px;
   border-radius: 20%;
   border: 2px solid;
   border-color: #fe980f;
-  animation-duration: 1.3s;
-  animation-iteration-count: 3;
+  
   margin: auto;
   margin-top: 60px;
   
@@ -70,14 +68,15 @@
 }
 
 .card {
-  margin: 0.8rem;
+  margin: auto;
   padding: 0.3rem;
   border: 2px solid #fe980f;
   /* background-color: #fe980f; */
-  border-radius: 20%;
+  border-radius: 10%;
   justify-content:center ;
   color: #fe980f; 
   text-decoration: none;
+  margin-top: 13px;
 }
 
 .card:hover {
@@ -125,7 +124,7 @@
 
 .linkedin, .cv, .github,.email{
   border: #fe980f 2px solid;
-  border-radius: 30%;
+  border-radius: 20%;
 }
 
 .linkedin:hover {
@@ -187,11 +186,15 @@
 }
 
 .subtitle{
+  animation: 2s ease 0s normal none bounce;
+  animation-duration: 1.3s;
+  animation-iteration-count: 3;
   justify-content: center;
   border-radius: 30%;
   margin: auto;
   margin-top: 25px;
   color: #fe980f;
+  margin-bottom:5px;
 
 }
 
@@ -200,6 +203,8 @@
   color: #fe980f;
   /* border: 3px solid #fe980f; */
   border-radius: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .picSection{

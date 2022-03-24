@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { AiFillLinkedin } from "react-icons/ai"
 import { AiFillGithub } from "react-icons/ai"
 import { IoMdContact } from "react-icons/io"
-import { MdContactMail } from "react-icons/md"
+import { ImMail4 } from "react-icons/im"
 
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
             <AiFillLinkedin className={styles.linkedin}/>
           </Link>
           <Link href="mailto:ivan.fanello@gmail.com">
-            <MdContactMail className={styles.email}/>
+            <ImMail4 className={styles.email}/>
           </Link>
           <Link href="/Ivan Fanello (London) - CV.pdf"
           target='_blank'>
@@ -41,11 +41,15 @@ export default function Home() {
         </div>
         <div className={styles.description}>
         <h2 className={styles.subtitle}>
-            This is Ivan!
+            This is Ivan
         </h2>
         <p className={styles.text}>
-        School of code Alumni on bootcamp 10
-        </p>
+        
+I've been a manager in hospitality for the last 6 years, but when I felt the time was right for a change I decided to join school of code for a new adventure.
+So here I am, challenging myself to improve, grow and be successfull in my new career as software engineer. I've loved tech since I was a kid and I'm excited to finally reveal it's mysteries!</p>
+
+<p className={styles.text}>
+I am just at the beginning of the journey and I am aware there is a long way to go, but I know that with my personality, experience and knowledge I can add value to any team.</p>
         <div className={styles.grid}>
         <Link href="/projects">
           <a className={styles.card}>
