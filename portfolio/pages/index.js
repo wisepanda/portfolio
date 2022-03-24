@@ -15,33 +15,14 @@ export default function Home() {
         <title>Ivan's Portfolio</title>
       </Head>
       <main className={styles.main}>
-      <div className={styles.infos}>
-        <div className='picSection'>
-        <Image className={styles.img} src="/untitled1.png" alt='me' width={360} height={360}/>
-        </div>
-        <div className={styles.description}>
+        <div className={styles.titleDiv}>
         <h1 className={styles.title}>
           Welcome Visitor!
         </h1>
-        <h2>
-            I'm Ivan and this my portfolio!
-        </h2>
-        <p>
-          my story pppppp pppppppppppppp ppppppppppppppppppppp pppppppppppppppppp pppppppppppp pppppppppppppppp pppppppppppppppp p ppppppppppppp pppppppppppppppppppp pppppppppppppppppppp ppppppppppppppp ppppppppppppppppppp pppppppppppppppppppp ppppppppppp p pppppppp pppppp  
-        </p>
-        <div className={styles.grid}>
-        <Link href="/projects">
-          <a className={styles.card}>
-            <h4>My Projects</h4>
-          </a>
-        </Link>
         </div>
-      </div>
-      </div>
-
-        <div>
-        {/* <hr/> */}
-      <footer className={styles.footer}>
+      <div className={styles.infos}>
+        <div className={styles.picSection}>
+        <Image className={styles.img} src="/untitled1.png" alt='me' width={350} height={350}/>
           <div className={styles.logos}>
           <Link href="https://www.linkedin.com/in/ivan-fanello-25b344230/">
             <AiFillLinkedin className={styles.linkedin}/>
@@ -57,8 +38,24 @@ export default function Home() {
             <AiFillGithub className={styles.github}/>
           </Link>
           </div>
-      </footer>
+        </div>
+        <div className={styles.description}>
+        <h2 className={styles.subtitle}>
+            This is Ivan!
+        </h2>
+        <p className={styles.text}>
+        School of code Alumni on bootcamp 10
+        </p>
+        <div className={styles.grid}>
+        <Link href="/projects">
+          <a className={styles.card}>
+            <h4>My Projects</h4>
+          </a>
+        </Link>
+        </div>
       </div>
+      </div>
+
       </main>
     </div>
   )
