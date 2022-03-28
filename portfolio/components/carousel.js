@@ -42,7 +42,7 @@ const EmblaCarousel = ({ slides }) => {
                   <img
                     className={styles.embla__slide__img}
                     // src={mediaByIndex(index)}
-                    alt="A cool cat."
+                    alt="project"
                   />
                 </div>
               </div>
