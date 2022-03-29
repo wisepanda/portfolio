@@ -24,17 +24,17 @@ export default function Home() {
         <div className={styles.picSection}>
         <Image className={styles.img} src="/untitled1.png" alt='me' width={350} height={350}/>
           <div className={styles.logos}>
-          <Link href="https://www.linkedin.com/in/ivan-fanello-25b344230/">
+          <Link href="https://www.linkedin.com/in/ivan-fanello-25b344230/" passHref>
             <AiFillLinkedin className={styles.linkedin}/>
           </Link>
-          <Link href="mailto:ivan.fanello@gmail.com">
+          <Link href="mailto:ivan.fanello@gmail.com" passHref>
             <ImMail4 className={styles.email}/>
           </Link>
           <Link href="/Ivan Fanello (London) - CV.pdf"
-          target='_blank'>
+          target='_blank' passHref>
           <IoMdContact className={styles.cv}/>
           </Link>
-          <Link href="https://github.com/wisepanda">
+          <Link href="https://github.com/wisepanda" passHref>
             <AiFillGithub className={styles.github}/>
           </Link>
           </div>

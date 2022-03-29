@@ -3,6 +3,7 @@ import { DotButton, PrevButton, NextButton } from "../components/carouselButtons
 import useEmblaCarousel from "embla-carousel-react";
 // import { mediaByIndex } from "../media";
 import styles from "../styles/carousel.module.css"
+import Image from "next/image";
 
 const EmblaCarousel = ({ slides }) => {
   const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false });
@@ -39,8 +40,10 @@ const EmblaCarousel = ({ slides }) => {
             {slides.map((index) => (
               <div className={styles.embla__slide} key={index}>
                 <div className={styles.embla__slide__inner}>
-                  <img
+                  <Image
                     className={styles.embla__slide__img}
+                    src="/untitled1.png"
+                    layout="fill"
                     // src={mediaByIndex(index)}
                     alt="project"
                   />
