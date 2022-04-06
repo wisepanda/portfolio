@@ -2,7 +2,7 @@ import React from "react";
 // import ReactDOM from "react-dom";
 import EmblaCarousel from "../components/carousel.js"
 
-const SLIDE_COUNT = 5;
+const SLIDE_COUNT = 4;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
 
 const App = () => (

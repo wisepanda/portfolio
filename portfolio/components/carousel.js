@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { DotButton, PrevButton, NextButton } from "../components/carouselButtons"
 import useEmblaCarousel from "embla-carousel-react";
-// import { mediaByIndex } from "../media";
+import media from "./media/media";
 import styles from "../styles/carousel.module.css"
 import Image from "next/image";
 
@@ -42,9 +42,8 @@ const EmblaCarousel = ({ slides }) => {
                 <div className={styles.embla__slide__inner}>
                   <Image
                     className={styles.embla__slide__img}
-                    src="/untitled1.png"
+                    src={media(index)}
                     layout="fill"
-                    // src={mediaByIndex(index)}
                     alt="project"
                   />
                 </div>
