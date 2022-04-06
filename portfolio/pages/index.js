@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       <div className={styles.infos}>
         <div className={styles.picSection}>
-        <Image className={styles.img} src="/untitled1.png" alt='me' width={350} height={350}/>
+        <Image className={styles.img} src={require('../public/Untitled1.png')} alt='me' width={350} height={350}/>
           <div className={styles.logos}>
           <Link href="https://www.linkedin.com/in/ivan-fanello-25b344230/" passHref>
             <AiFillLinkedin className={styles.linkedin}/>
