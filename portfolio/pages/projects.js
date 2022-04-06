@@ -1,16 +1,26 @@
 import React from "react";
 // import ReactDOM from "react-dom";
-import EmblaCarousel from "../components/carousel.js"
+import EmblaCarousel from "../components/carousel.js";
 
-const SLIDE_COUNT = 4;
-const slides = Array.from(Array(SLIDE_COUNT).keys());
+
+import rickAndMorty from "../components/media/rick&morty.png";
+import toDo from "../components/media/toDo1.png";
+import pokeApi from "../components/media/pokeAPI.png";
+import invincibles from "../components/media/invincibles.png";
+
+const _slides = [
+   { id: 0, image: rickAndMorty },
+   { id: 1, image: toDo },
+   { id: 2, image: pokeApi },
+   { id: 3, image: invincibles },
+];
 
 const App = () => (
-  <main>
-    <EmblaCarousel slides={slides} />
-  </main>
+   <main>
+      <EmblaCarousel slides={_slides} />
+   </main>
 );
 
-export default App
+export default App;
 // const rootElement = document.getElementById("root");
 // ReactDOM.render(<App />, rootElement);
