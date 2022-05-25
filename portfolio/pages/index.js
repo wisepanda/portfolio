@@ -24,19 +24,31 @@ export default function Home() {
         <div className={styles.picSection}>
         <Image className={styles.img} src={require('../public/Untitled1.png')} alt='me' width={350} height={350}/>
           <div className={styles.logos}>
+          <div className={styles.showme}>
           <Link href="https://www.linkedin.com/in/ivan-fanello-25b344230/" passHref>
             <AiFillLinkedin className={styles.linkedin}/>
           </Link>
+          <div className={styles.showDesc}>Linkedin</div>
+          </div>
+          <div className={styles.showme}>
           <Link href="mailto:ivan.fanello@gmail.com" passHref>
             <ImMail4 className={styles.email}/>
           </Link>
+          <div className={styles.showDesc}>Email</div>
+          </div>
+          <div className={styles.showme}>
           <Link href="/Ivan Fanello (London) - CV.pdf"
           target='_blank' passHref>
           <IoMdContact className={styles.cv}/>
           </Link>
+          <div className={styles.showDesc}>Cv</div>
+          </div>
+          <div className={styles.showme}>
           <Link href="https://github.com/wisepanda" passHref>
             <AiFillGithub className={styles.github}/>
           </Link>
+          <div className={styles.showDesc}>Github</div>
+          </div>
           </div>
         </div>
         <div className={styles.description}>
