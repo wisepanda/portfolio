@@ -1,7 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 import EmblaCarousel from "../components/carousel.js";
-
+import Navbar from "../components/navbar.js";
 
 import rickAndMorty from "../components/media/rick&morty.png";
 import toDo from "../components/media/toDo1.png";
@@ -17,6 +17,7 @@ const _slides = [
 
 const App = () => (
    <main>
+      <Navbar link={"/"} pageName={"Home"}/>
       <EmblaCarousel slides={_slides} />
    </main>
 );
