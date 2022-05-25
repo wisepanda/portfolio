@@ -145,7 +145,7 @@
   -webkit-animation-timing-function: linear;
   -webkit-transform-origin: 50% 100%;
 }
-.cv:hover{
+.cv:hover {
   color: black;
   background-color: #fe980f ;
   -webkit-animation-name: shake;    
@@ -211,4 +211,22 @@
   margin-top:25px;
   justify-content: center;
  
+}
+
+.showDesc{
+  display: none;
+  font-size: 20px;
+
+}
+
+.showme:hover .showDesc{
+  display: block;
+}
+
+.showme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
 }

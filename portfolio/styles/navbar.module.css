@@ -1,0 +1,18 @@
+.navContainer{
+    display: flex;
+    /* border: 2px solid white; */
+    justify-content: center;
+
+    padding-top: 3em;
+}
+
+.linkButton{
+    background-color: unset;
+    border: unset;
+    font-size: 20px;
+    color: #fe980f;
+}
+
+.linkButton a:visited{
+    color: #fe980f;
+    }
